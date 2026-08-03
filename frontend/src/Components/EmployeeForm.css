@@ -1,0 +1,29 @@
+body {
+    background: #f5f7fa;
+}
+
+.employee-form {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+.employee-form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.employee-form .form-control {
+    height: 45px;
+    border-radius: 8px;
+}
+
+.employee-form .btn {
+    width: 100%;
+    height: 45px;
+    border-radius: 8px;
+    font-weight: 600;
+}

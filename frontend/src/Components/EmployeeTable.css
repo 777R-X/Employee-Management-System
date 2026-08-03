@@ -1,0 +1,46 @@
+.employee-table {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.employee-table h3 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.employee-table table {
+    margin-bottom: 0;
+}
+
+.employee-table th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.employee-table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.employee-table .btn {
+    margin: 2px;
+}
+
+.employee-table .btn-warning {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+
+    .employee-table {
+        overflow-x: auto;
+    }
+
+    .employee-table table {
+        min-width: 700px;
+    }
+
+}
